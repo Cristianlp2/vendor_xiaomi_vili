@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/vili
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/vili/proprietary/vendor/bin/charger:$(TARGET_COPY_OUT_SYSTEM)/bin/charger \
     vendor/xiaomi/vili/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
     vendor/xiaomi/vili/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/xiaomi/vili/proprietary/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
